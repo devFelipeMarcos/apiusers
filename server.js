@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors()); // Habilita CORS se necessário
 
 // Configurações
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 // ------------------------------------------
 // Middleware de Erro Global
